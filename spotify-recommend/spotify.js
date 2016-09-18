@@ -17,5 +17,9 @@ var getFromApi = function(endpoint, query) {
 
 var artist;
 var getArtist = function(name) {
-    // Edit me!
+    var query = {
+        q: name,
+        
+    }
+   getFromApi('search', )
 };
